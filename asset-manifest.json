@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/real-estate-site/static/css/main.a1b9bb36.css",
+    "main.js": "/real-estate-site/static/js/main.6664696a.js",
+    "static/media/image.jpg": "/real-estate-site/static/media/image.0549395b1f1b746943fb.jpg",
+    "static/media/b8.jpg": "/real-estate-site/static/media/b8.9a300c20d83af7920a0a.jpg",
+    "static/media/b9.jpg": "/real-estate-site/static/media/b9.104d98edebd74ab8d093.jpg",
+    "static/media/b5.jpg": "/real-estate-site/static/media/b5.687c90791379e43b627f.jpg",
+    "static/media/b3.jpg": "/real-estate-site/static/media/b3.c1dcc263b277a7543935.jpg",
+    "static/media/b2.jpg": "/real-estate-site/static/media/b2.876aa9d087b4437759f9.jpg",
+    "static/media/b4.jpg": "/real-estate-site/static/media/b4.759946af8d78dfe31d4c.jpg",
+    "static/media/lagos.png": "/real-estate-site/static/media/lagos.fa21a340e251e6aca1f9.png",
+    "static/media/b1.jpg": "/real-estate-site/static/media/b1.6f3305f328a4925f9763.jpg",
+    "static/media/dubai.png": "/real-estate-site/static/media/dubai.5c2220165fd7faea454d.png",
+    "static/media/abuja.png": "/real-estate-site/static/media/abuja.020cf0aa537e1e953045.png",
+    "index.html": "/real-estate-site/index.html",
+    "main.a1b9bb36.css.map": "/real-estate-site/static/css/main.a1b9bb36.css.map",
+    "main.6664696a.js.map": "/real-estate-site/static/js/main.6664696a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1b9bb36.css",
+    "static/js/main.6664696a.js"
+  ]
+}
