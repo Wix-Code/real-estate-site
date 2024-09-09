@@ -1,0 +1,329 @@
+.hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.219), rgb(0, 0, 0)) , url('../Home/pictures/b3.jpg');
+  text-align: center;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.hero1{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.hero1 h1{
+  color: #ffffff;
+  font-size: 40px;
+}
+.hero_bar{
+  width: 1200px;
+  padding: 20px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hero_1 select{
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  padding: 15px 10px;
+  font-size: 16px;
+}
+.hero_2{
+  display: flex;
+  gap: 10px;
+}
+.here{
+  flex: 1;
+}
+.here select{
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 16px;
+  background: #000000;
+  color: #ffffff;
+}
+.here button{
+  padding: 15px 10px;
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background: #3f5cff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.here button:hover{
+  background: #001cbd;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+/*** Featured ****/
+.future{
+  background: #000000;
+  padding: 80px 0px;
+}
+.futured{
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  margin: auto;
+}
+.futured h1{
+  color: #ffffff;
+  text-align: center;
+  font-size: 45px;
+}
+.future1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/*** Discover ***/
+.discover{
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  margin: auto;
+}
+.discover1{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.disco, .disco1{
+  flex: 1;
+}
+.disco{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.disco h1{
+  color: #2e2e2e;
+}
+.disco p{
+  line-height: 25px;
+  text-align: center;
+  font-size: 17px;
+  color: #5c5c5c;
+}
+.disco1 img{
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+.discover2{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.discover2 h1{
+  text-align: center;
+  font-size: 40px;
+  color: #2e2e2e;
+}
+.dico_pics{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.discover_lag{
+  background-image: linear-gradient(to bottom,  rgba(88, 88, 88, 0.027), rgba(104, 104, 104, 0.226)) ,url('../Home/pictures/lagos.png');
+  height: 400px;
+  background-size: cover ;
+  background-position: center;
+  transition: all 0.4s;
+}
+.discover_abj{
+  background-image: linear-gradient(to bottom, rgba(88, 88, 88, 0.027), rgba(104, 104, 104, 0.226)) ,url('../Home/pictures/abuja.png');
+  background-size: cover ;
+  height: 400px;
+  background-position: center;
+  transition: all 0.4s;
+}
+.discover_dub{
+  background-image: linear-gradient(to bottom, rgba(88, 88, 88, 0.027), rgba(104, 104, 104, 0.226)) ,url('../Home/pictures/dubai.png');
+  background-size: cover ;
+  height: 400px;
+  background-position: center;
+  transition: all 0.4s;
+}
+.discover_abj:hover, .discover_dub:hover,.discover_lag:hover{
+  transform: scale(1.09);
+}
+
+.abot{
+  background: #000000;
+  padding: 40px 0px;
+}
+.abot1{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  color: #ffffff;
+  flex-direction: column;
+  gap: 30px;
+}
+.abot1 button{
+  padding: 10px 18px;
+  background: #000000;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  max-width: max-content;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+.abot1 button:hover{
+  background: #ffffff;
+  color: #00b61e;
+}
+.abot1 p{
+  font-size: 17px;
+  line-height: 25px;
+  text-align: justify;
+}
+.abot1 img{
+  width: 100%;
+}
+
+@media screen and (max-width: 760px) {
+  .hero{
+    padding: 0px 20px;
+    height: 70vh;
+  }
+  .hero1{width: 100%;}
+  .hero1 h1{
+    display: none;
+  }
+  .hero_bar{
+    width: 100%;
+  }
+  .here{
+    width: 100%;
+  }
+  .here select option{
+    width: 100%;
+   
+  }
+  .hero_2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .future1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .futured{
+    padding: 0px 20px;
+  }
+  .futured h1{
+    font-size: 25px;
+  }
+  .discover{
+    padding: 0px 20px;
+  }
+  .discover1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .disco h1,.discover2 h1{
+    font-size: 25px;
+  }
+  .disco1{
+    width: 100%;
+  }
+  .dico_pics{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .discover_abj:hover, .discover_dub:hover,.discover_lag:hover{
+    transform: scale(1.05);
+  }
+  .abot1{
+    padding: 0px 20px;
+  }
+  .abot1 h1{
+    font-size: 25px;
+  }
+  .abot1 p{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 761px) and (max-width: 1199px){
+  .hero{
+    padding: 0px 20px;
+    height: 70vh;
+  }
+  .hero1{
+    width: 100%;
+  }
+  .hero1 h1{
+    display: none;
+  }
+  .hero_bar{
+    width: 100%;
+  }
+ 
+  .future1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .futured{
+    padding: 0px 20px;
+  }
+  .futured h1{
+    font-size: 30px;
+  }
+  .discover{
+    padding: 0px 20px;
+  }
+  .dico_pics{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .discover_lag, .discover_abj, .discover_dub{
+    height: 260px;
+  }
+  .disco h1,.discover2 h1{
+    font-size: 30px;
+  }
+  .disco1{
+    width: 100%;
+  }
+  .abot1{
+    padding: 0px 20px;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) and (max-width : 1199px){
+  .futured,.discover,.abot1{
+    padding: 0px 10px;
+  }
+}

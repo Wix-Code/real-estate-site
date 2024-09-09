@@ -1,0 +1,41 @@
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  background: #ffffff;
+}
+.list_img{
+  height: 280px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.list h2{
+  font-size: 18px;
+  color: #181818;
+  font-weight: 500;
+
+}
+.list h3{
+  font-weight: 500;
+  color: #181818;
+  font-size: 17px;
+}
+.list p{
+  text-transform: uppercase;
+  color: #353535;
+  font-size: 15px;
+}
+.list_icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  color: #414141;
+}
+.bed{
+  font-size: 20px;
+}
